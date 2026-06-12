@@ -1,13 +1,13 @@
 import { ServiceItem, CoreValue, GalleryItem } from './types';
 
 export const HERO_IMAGE = '/assets/images/home.jpeg';
-export const KITCHEN_IMAGE = '/assets/images/kitchens and interiors.jpeg';
+export const KITCHEN_IMAGE = '/assets/images/kitchens_and_interiors.jpeg';
 export const BATHROOM_IMAGE = '/assets/images/bathroom_renovations.jpeg';
 export const FINISHING_IMAGE = '/assets/images/finishing_detail_work.jpeg';
 export const PLUMBING_IMAGE = '/assets/images/plumbing.jpeg';
 export const MAINTENANCE_IMAGE = '/assets/images/property_maintenance.jpeg';
-export const GENERAL_TRADES_IMAGE = '/assets/images/general trades and support work.jpeg';
-export const CONSULTATION_IMAGE = '/assets/images/projectplanning and consultation.jpeg';
+export const GENERAL_TRADES_IMAGE = '/assets/images/general_trades_and_support_work.jpeg';
+export const CONSULTATION_IMAGE = '/assets/images/project_planning_and_consultation.jpeg';
 
 export const CORE_SERVICES: ServiceItem[] = [
   {
@@ -164,7 +164,7 @@ export const CORE_VALUES: CoreValue[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'g1',
-    image: '/assets/images/kitchens and interiors.jpeg',
+    image: '/assets/images/kitchens_and_interiors.jpeg',
     title: 'Bespoke Modern Open-Plan Kitchen',
     category: 'interiors',
     location: 'Borrowdale Brooke, Harare',
@@ -236,7 +236,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g10',
-    image: '/assets/images/projectplanning and consultation.jpeg',
+    image: '/assets/images/project_planning_and_consultation.jpeg',
     title: 'Architectural Scoping & On-Site Consultation',
     category: 'construction',
     location: 'Harare CBD Bureau',
@@ -244,7 +244,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g11',
-    image: '/assets/images/general trades and support work.jpeg',
+    image: '/assets/images/general_trades_and_support_work.jpeg',
     title: 'Structural Wood Framing & Carpentry Support',
     category: 'construction',
     location: 'Mount Pleasant, Harare',
@@ -252,7 +252,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g12',
-    image: '/assets/images/general trades and support work2.jpeg',
+    image: '/assets/images/general_trades_and_support_work2.jpeg',
     title: 'Phased Partition Framing & Support Work',
     category: 'renovations',
     location: 'Eastgate, Harare',
@@ -260,7 +260,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g13',
-    image: '/assets/images/general trades and support work3.jpeg',
+    image: '/assets/images/general_trades_and_support_work3.jpeg',
     title: 'Pristine Site Clearance & Civil Support',
     category: 'utility',
     location: 'Greystone Park, Harare',
