@@ -1,0 +1,6 @@
+{
+  "name": "Four Hundred - Skilled Trades & Interiors",
+  "description": "Premium Harare-based skilled trades and interior specialists. High-end residential construction, custom kitchens, luxury bathroom renovations, and property maintenance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
