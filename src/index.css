@@ -21,6 +21,17 @@ body {
   color: #f5f4ef;
 }
 
+/* Safari support classes for backdrop blur filter */
+.backdrop-blur-md {
+  -webkit-backdrop-filter: blur(12px) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+.backdrop-blur-xs {
+  -webkit-backdrop-filter: blur(4px) !important;
+  backdrop-filter: blur(4px) !important;
+}
+
 /* Custom smooth scrolling */
 html {
   scroll-behavior: smooth;
