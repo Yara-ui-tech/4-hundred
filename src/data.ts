@@ -1,13 +1,13 @@
 import { ServiceItem, CoreValue, GalleryItem } from './types';
 
-export const HERO_IMAGE = '/src/assets/images/home.jpeg';
-export const KITCHEN_IMAGE = '/src/assets/images/kitchens and interiors.jpeg';
-export const BATHROOM_IMAGE = '/src/assets/images/bathroom_renovations.jpeg';
-export const FINISHING_IMAGE = '/src/assets/images/finishing_detail_work.jpeg';
-export const PLUMBING_IMAGE = '/src/assets/images/plumbing.jpeg';
-export const MAINTENANCE_IMAGE = '/src/assets/images/property_maintenance.jpeg';
-export const GENERAL_TRADES_IMAGE = '/src/assets/images/general trades and support work.jpeg';
-export const CONSULTATION_IMAGE = '/src/assets/images/projectplanning and consultation.jpeg';
+export const HERO_IMAGE = '/assets/images/home.jpeg';
+export const KITCHEN_IMAGE = '/assets/images/kitchens and interiors.jpeg';
+export const BATHROOM_IMAGE = '/assets/images/bathroom_renovations.jpeg';
+export const FINISHING_IMAGE = '/assets/images/finishing_detail_work.jpeg';
+export const PLUMBING_IMAGE = '/assets/images/plumbing.jpeg';
+export const MAINTENANCE_IMAGE = '/assets/images/property_maintenance.jpeg';
+export const GENERAL_TRADES_IMAGE = '/assets/images/general trades and support work.jpeg';
+export const CONSULTATION_IMAGE = '/assets/images/projectplanning and consultation.jpeg';
 
 export const CORE_SERVICES: ServiceItem[] = [
   {
@@ -164,7 +164,7 @@ export const CORE_VALUES: CoreValue[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'g1',
-    image: '/src/assets/images/kitchens and interiors.jpeg',
+    image: '/assets/images/kitchens and interiors.jpeg',
     title: 'Bespoke Modern Open-Plan Kitchen',
     category: 'interiors',
     location: 'Borrowdale Brooke, Harare',
@@ -172,7 +172,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g2',
-    image: '/src/assets/images/home.jpeg',
+    image: '/assets/images/home.jpeg',
     title: 'Architectural Residential Development',
     category: 'construction',
     location: 'Glen Lorne, Harare',
@@ -180,7 +180,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g3',
-    image: '/src/assets/images/bathroom_innovations.jpeg',
+    image: '/assets/images/bathroom_innovations.jpeg',
     title: 'Custom Vanity & Wet-Room Innovations',
     category: 'interiors',
     location: 'Chisipite, Harare',
@@ -188,7 +188,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g4',
-    image: '/src/assets/images/bathroom_renovations.jpeg',
+    image: '/assets/images/bathroom_renovations.jpeg',
     title: 'Premium Porcelain Bathroom Makeover',
     category: 'renovations',
     location: 'Highlands, Harare',
@@ -196,7 +196,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g5',
-    image: '/src/assets/images/bathroom_rennovations.jpeg',
+    image: '/assets/images/bathroom_rennovations.jpeg',
     title: 'Contemporary En-Suite Remodel',
     category: 'renovations',
     location: 'The Grange, Harare',
@@ -204,7 +204,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g6',
-    image: '/src/assets/images/finishing_detail_work.jpeg',
+    image: '/assets/images/finishing_detail_work.jpeg',
     title: 'Master Finish Carpentry & Detailing',
     category: 'construction',
     location: 'Vainona, Harare',
@@ -212,7 +212,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g7',
-    image: '/src/assets/images/finishing_&_detail_work.jpeg',
+    image: '/assets/images/finishing_detail_work.jpeg',
     title: 'Precision Architectural Ceiling Finishing',
     category: 'renovations',
     location: 'Avondale, Harare',
@@ -220,7 +220,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g8',
-    image: '/src/assets/images/plumbing.jpeg',
+    image: '/assets/images/plumbing.jpeg',
     title: 'Copper Mainline Pipe & Valve Calibration',
     category: 'utility',
     location: 'Belgravia, Harare',
@@ -228,7 +228,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g9',
-    image: '/src/assets/images/property_maintenance.jpeg',
+    image: '/assets/images/property_maintenance.jpeg',
     title: 'Commercial Roof Weatherproofing & Restoration',
     category: 'utility',
     location: 'Milton Park, Harare',
@@ -236,7 +236,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g10',
-    image: '/src/assets/images/projectplanning and consultation.jpeg',
+    image: '/assets/images/projectplanning and consultation.jpeg',
     title: 'Architectural Scoping & On-Site Consultation',
     category: 'construction',
     location: 'Harare CBD Bureau',
@@ -244,7 +244,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g11',
-    image: '/src/assets/images/general trades and support work.jpeg',
+    image: '/assets/images/general trades and support work.jpeg',
     title: 'Structural Wood Framing & Carpentry Support',
     category: 'construction',
     location: 'Mount Pleasant, Harare',
@@ -252,7 +252,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g12',
-    image: '/src/assets/images/general trades and support work2.jpeg',
+    image: '/assets/images/general trades and support work2.jpeg',
     title: 'Phased Partition Framing & Support Work',
     category: 'renovations',
     location: 'Eastgate, Harare',
@@ -260,7 +260,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g13',
-    image: '/src/assets/images/general trades and support work3.jpeg',
+    image: '/assets/images/general trades and support work3.jpeg',
     title: 'Pristine Site Clearance & Civil Support',
     category: 'utility',
     location: 'Greystone Park, Harare',
@@ -268,7 +268,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g14',
-    image: '/src/assets/images/upload_9.jpeg',
+    image: '/assets/images/upload_9.jpeg',
     title: 'Industrial Sewer Layout & Plumbing Service',
     category: 'utility',
     location: 'Southerton, Harare',
